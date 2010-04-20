@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/EmulationModule/EmulationModule.iml" filepath="$PROJECT_DIR$/EmulationModule/EmulationModule.iml" group="Diplom" />
+      <module fileurl="file://$PROJECT_DIR$/GeneratorModule/GeneratorModule.iml" filepath="$PROJECT_DIR$/GeneratorModule/GeneratorModule.iml" group="Diplom" />
+      <module fileurl="file://$PROJECT_DIR$/JUnitTestModule/JUnitTestModule.iml" filepath="$PROJECT_DIR$/JUnitTestModule/JUnitTestModule.iml" group="Diplom" />
+      <module fileurl="file://$PROJECT_DIR$/Main/Main.iml" filepath="$PROJECT_DIR$/Main/Main.iml" group="Diplom" />
+      <module fileurl="file://$PROJECT_DIR$/MemoryUnit/MemoryUnit.iml" filepath="$PROJECT_DIR$/MemoryUnit/MemoryUnit.iml" group="Diplom" />
+      <module fileurl="file://$PROJECT_DIR$/ParserXML/ParserXML.iml" filepath="$PROJECT_DIR$/ParserXML/ParserXML.iml" group="Diplom" />
+      <module fileurl="file://$PROJECT_DIR$/TestModule/TestModule.iml" filepath="$PROJECT_DIR$/TestModule/TestModule.iml" group="Diplom" />
+    </modules>
+  </component>
+</project>
+

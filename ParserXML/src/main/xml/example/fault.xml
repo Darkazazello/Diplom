@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<faults xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="fault.xsd">
+    <fault name="Normal">
+        <state stateValue="0">
+            <jumpOperation operation="w" position="0" value="1">
+                <nextState stateValue="1" />
+            </jumpOperation>
+        </state>
+        <state stateValue="1">
+            <jumpOperation operation="w" position="0" value="0">
+                <nextState stateValue="0" />
+            </jumpOperation>
+       </state>
+    </fault>
+    <fault name="SA0">
+        <state stateValue="0">
+            <jumpOperation operation="w" position="0" value="1">
+                <nextState stateValue="0"/>
+            </jumpOperation>
+            <jumpOperation operation="w" position="0" value="0">
+                <nextState stateValue="0" />
+            </jumpOperation>
+        </state>
+    </fault>
+</faults>

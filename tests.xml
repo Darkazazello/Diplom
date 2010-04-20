@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<records>
+    <test>
+        <name>MATS</name>
+
+            <part order="either">
+                <command operation="w" value="0" />
+            </part>
+            <part order="either">
+                <command operation="r" value="0" />
+                <command operation="w" value="1" />
+            </part>
+            <part order="either">
+                <command operation="r" value="1" />
+            </part>
+
+    </test>
+
+    <test>
+        <name>MATS++</name>
+            <part order="either">
+                <command operation="w" value="0" />
+            </part>
+
+            <part order="up">
+                <command operation="r" value="0" />
+                <command operation="w" value="1" />
+            </part>
+            
+            <part order="down">
+                <command operation="r" value="1" />
+                <command operation="w" value="0" />
+                <command operation="r" value="0" />
+            </part>
+    </test>
+    <test>
+        <name>AZA</name>
+        <part order="either">
+            <command operation="w" value="0" />
+            <command operation="r" value="0" />
+        </part>
+    </test>
+</records>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="records">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="test" type="Test" minOccurs="1" maxOccurs="unbounded"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:complexType name="Test">
+        <xsd:sequence>
+            <xsd:element name="name" type="xsd:string"/>
+            <xsd:element name="part" type="Part" minOccurs="1" maxOccurs="unbounded"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="Part">
+        <xsd:sequence>
+            <xsd:element name="command" type="Command" minOccurs="1" maxOccurs="unbounded"/>
+        </xsd:sequence>
+        <xsd:attribute name="order" type="xsd:string"  default="either"/>
+    </xsd:complexType>
+
+    <xsd:complexType name="Command">
+        <xsd:attribute name="operation" type="xsd:string"  default="w"/>
+        <xsd:attribute name="value" type="xsd:string"  default="w"/>
+    </xsd:complexType>
+
+</xsd:schema>
